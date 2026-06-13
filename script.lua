@@ -566,7 +566,7 @@ local function createButton(text, position, size, color, callback)
     btn.TextColor3 = Color3.new(1,1,1)
     btn.TextScaled = true
     btn.BackgroundColor3 = color
-    btn.BorderSize = 0
+    btn.BorderSizePixel = 0
     btn.Font = Enum.Font.GothamBold
     btn.Parent = screenGui
 
@@ -585,7 +585,7 @@ mainPanel.Size = UDim2.new(0, 180, 0, 200)
 mainPanel.Position = UDim2.new(0.8, -90, 0.5, -100)
 mainPanel.BackgroundColor3 = Color3.fromRGB(30,30,40)
 mainPanel.BackgroundTransparency = 0.2
-mainPanel.BorderSize = 0
+mainPanel.BorderSizePixel = 0
 mainPanel.Parent = screenGui
 
 local dragging = false
@@ -637,7 +637,7 @@ directionPanel.Size = UDim2.new(0, 220, 0, 150)
 directionPanel.Position = UDim2.new(0, 10, 1, -160)
 directionPanel.BackgroundColor3 = Color3.fromRGB(0,0,0)
 directionPanel.BackgroundTransparency = 0.5
-directionPanel.BorderSize = 0
+directionPanel.BorderSizePixel = 0
 directionPanel.Visible = false
 directionPanel.Parent = screenGui
 
@@ -649,7 +649,7 @@ local function createDirButton(text, pos, size, moveKey)
     btn.TextColor3 = Color3.new(1,1,1)
     btn.TextScaled = true
     btn.BackgroundColor3 = Color3.fromRGB(80,80,120)
-    btn.BorderSize = 0
+    btn.BorderSizePixel = 0
     btn.Font = Enum.Font.GothamBold
     btn.Parent = directionPanel
 
